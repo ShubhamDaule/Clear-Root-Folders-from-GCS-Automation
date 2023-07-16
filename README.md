@@ -8,7 +8,7 @@ This project is an Airflow DAG that automates the process of removing the root f
 * Google Cloud Storage Python Client Library
 * A GCP service account with appropriate permissions to access the buckets
 
-##Installation
+## Installation
 * Clone this repository to your local machine
 * Copy the DAG file daily_clear_root_files.py to your Airflow DAGs folder
 * Set the following Airflow variables in the UI or via CLI:
