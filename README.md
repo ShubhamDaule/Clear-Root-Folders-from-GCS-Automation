@@ -10,7 +10,7 @@ This project is an Airflow DAG that automates the process of removing the root f
 
 ## Installation
 * Clone this repository to your local machine
-* Copy the DAG file daily_clear_root_files.py to your Airflow DAGs folder
+* Copy the DAG file `daily_clear_root_files.py` to your Airflow DAGs folder
 * Set the following Airflow variables in the UI or via CLI:
   * `platform_composer_env`: The name of the environment (e.g. preprod, prod)
   * `web_server_name`: The name of the web server
